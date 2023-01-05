@@ -9,7 +9,7 @@ import {SearchTravelComponent} from "./components/search-travel/search-travel.co
 
 const routes: Routes = [
   {path: '', component: MainPageComponent},
-  {path: 'profile', component: ProfileComponent, canActivate: [AuthGuard]},
+  {path: 'profil', component: ProfileComponent, canActivate: [AuthGuard]},
   {path: 'nowy-przejazd', component: NewTravellComponent, canActivate: [AuthGuard]},
   {path: 'oceny', component: UserMarksComponent, canActivate: [AuthGuard]},
   {path: 'szukaj', component: SearchTravelComponent, canActivate: [AuthGuard]},
